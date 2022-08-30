@@ -1,0 +1,135 @@
+.header {
+  height: 42px;
+  background: blue;
+}
+
+.header-title {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: azure;
+}
+
+
+.footer {
+  height: 42px;
+  background: blue;
+  margin-top: 50px;
+}
+
+.footer-title {
+  padding: 10px;
+  font-weight: bold;
+  text-align: right;
+  color: azure;
+
+}
+
+.todo-form {
+  padding: 10px;
+  height: 150px;
+  width: 500px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.todo-text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.todo-submit {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list-main {
+  padding: 10px;
+  height: auto;
+  width: 500px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-left: 30%;
+}
+
+.todo-list-title {
+  height: 20px;
+  width: 200px;
+  background: blue;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  color: aliceblue;
+  margin-left: 25%;
+}
+
+.todo-add-title {
+  height: 20px;
+  width: 200px;
+  background: blue;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  color: aliceblue;
+  margin-left: 25%;
+}
+
+ul {
+  padding: 20px;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+  margin: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid blue;
+  padding-bottom: 15px;
+}
+
+.delete-btn {
+  float: right;
+  padding-right: 10px;
+}
+
+.edit-btn {
+  float: right;
+  padding-right: 10px;
+}
+
+.delete-real {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px
+}
+
+.edit-real {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
